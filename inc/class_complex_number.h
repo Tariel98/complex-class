@@ -18,7 +18,7 @@ class Complex
     Complex operator-- (int);
     Complex operator+= (const Complex& fake);
     bool operator== (const Complex& fake);
-    void show();
+    void display();
 };
 
 #endif

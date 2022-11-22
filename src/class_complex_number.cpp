@@ -1,5 +1,5 @@
-#include"complex.h"
-
+#include "class_complex_number.h"
+#include <iostream>
 
 Complex::Complex(double number, double i_number)
         : number(number)
@@ -50,7 +50,7 @@ bool Complex::operator==(const Complex &fake)
     return (this->number == fake.number && this->inumber == fake.inumber);
 }
 
-void Complex::show()
+void Complex::display()
 {
     std::cout << number << "  " << inumber << std::endl;
 }
